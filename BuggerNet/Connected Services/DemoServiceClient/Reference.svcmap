@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1d83c069-3616-43c5-99f5-d3068a1432cc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="61deede7-91bf-4ab8-9590-63cd5c5f0a31" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,13 +19,13 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:10001/BuggerNetSvc/DemoService/mex" Protocol="mex" SourceId="1" />
+    <MetadataSource Address="http://localhost/BuggerNetSvc/DemoService/mex" Protocol="mex" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="00ef80ad-486c-40c8-a7cf-534c49d8b376" SourceId="1" SourceUrl="http://localhost:10001/BuggerNetSvc/DemoService/mex" />
-    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="711a4916-763a-4c5e-a75d-f7f2c8ddc61f" SourceId="1" SourceUrl="http://localhost:10001/BuggerNetSvc/DemoService/mex" />
-    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="ba2a71ce-67ee-43ad-9a54-37f8d65d74c9" SourceId="1" SourceUrl="http://localhost:10001/BuggerNetSvc/DemoService/mex" />
-    <MetadataFile FileName="BuggerNetSvc.xsd" MetadataType="Schema" ID="4953e352-9a1c-4c9e-bdae-c764bc94df34" SourceId="1" SourceUrl="http://localhost:10001/BuggerNetSvc/DemoService/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="a8dd9d18-c14f-4cc6-9ec2-af089e542f60" SourceId="1" SourceUrl="http://localhost/BuggerNetSvc/DemoService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="6f5c3d98-a575-4cb7-b67d-873d48754f0b" SourceId="1" SourceUrl="http://localhost/BuggerNetSvc/DemoService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="0e5b94aa-b6e6-4c41-a14d-5a479192a971" SourceId="1" SourceUrl="http://localhost/BuggerNetSvc/DemoService/mex" />
+    <MetadataFile FileName="BuggerNetSvc.xsd" MetadataType="Schema" ID="2e9c6640-f711-45b0-928c-0405801db8c8" SourceId="1" SourceUrl="http://localhost/BuggerNetSvc/DemoService/mex" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

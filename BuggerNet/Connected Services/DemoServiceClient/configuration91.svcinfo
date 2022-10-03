@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="0eX3VX9hDD9VynbRL8waT0BPZ/o=">
+<SavedWcfConfigurationInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="9.1" CheckSum="jpF8TzL+g6dGsNSv95Gbzh+pkUa0XxPv1ClHsCkBmBQ=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IDemoService">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IDemoService" contract="DemoServiceClient.IDemoService" bindingType="basicHttpBinding" address="http://localhost:10001/BuggerNetSvc/DemoService" bindingConfiguration="BasicHttpBinding_IDemoService">
+    <endpoint name="BasicHttpBinding_IDemoService" contract="DemoServiceClient.IDemoService" bindingType="basicHttpBinding" address="http://localhost/BuggerNetSvc/DemoService/" bindingConfiguration="BasicHttpBinding_IDemoService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost:10001/BuggerNetSvc/DemoService</serializedValue>
+          <serializedValue>http://localhost/BuggerNetSvc/DemoService/</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

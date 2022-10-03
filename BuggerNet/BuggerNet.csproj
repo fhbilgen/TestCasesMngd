@@ -260,18 +260,6 @@
     <WCFMetadataStorage Include="Connected Services\DemoServiceSesNAClient\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\DemoServiceClient\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\DemoServiceClient\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\DemoServiceClient\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Connected Services\DemoServiceSesAClient\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
@@ -303,6 +291,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\DemoServiceSecureClient\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoServiceClient\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoServiceClient\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoServiceClient\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
