@@ -1,0 +1,623 @@
+<?xml version="1.0"?>
+<NobelPhysicsLaureateList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NPLList>
+    <NobelPhysicsLaureate>
+      <ID>1901</ID>
+      <Name>Wilhelm Conrad</Name>
+      <Surname>Röntgen</Surname>
+      <City>Munich</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1902</ID>
+      <Name>Hendrik Antoon</Name>
+      <Surname>Lorents</Surname>
+      <City>Arnhem</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1903</ID>
+      <Name>Marie</Name>
+      <Surname>Curie</Surname>
+      <City>Sallanches</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1904</ID>
+      <Name>John William</Name>
+      <Surname>Strutt</Surname>
+      <City>Essex</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1905</ID>
+      <Name>Philipp Eduard Anton</Name>
+      <Surname>von Lenard</Surname>
+      <City>Messelhausen</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1906</ID>
+      <Name>Joseph John</Name>
+      <Surname>Thomson</Surname>
+      <City>Cambridge</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1907</ID>
+      <Name>Albert Abraham</Name>
+      <Surname>Michelson</Surname>
+      <City>Chicago</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1908</ID>
+      <Name>Gabriel</Name>
+      <Surname>Lippmann</Surname>
+      <City>Paris</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1909</ID>
+      <Name>Guglielmo</Name>
+      <Surname>Marconi</Surname>
+      <City>Rome</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1910</ID>
+      <Name>Johannes Diderik</Name>
+      <Surname>van der Waals</Surname>
+      <City>Amsterdam</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1911</ID>
+      <Name>Wilhelm</Name>
+      <Surname>Wien</Surname>
+      <City>Munich</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1912</ID>
+      <Name>Nils Gustaf</Name>
+      <Surname>Dalén</Surname>
+      <City>Stockholm</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1913</ID>
+      <Name>Heike Kamerlingh</Name>
+      <Surname>Onnes</Surname>
+      <City>Leiden</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1914</ID>
+      <Name>Max</Name>
+      <Surname>von Laue</Surname>
+      <City>Berlin</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1915</ID>
+      <Name>William Henry</Name>
+      <Surname>Bragg</Surname>
+      <City>London</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1917</ID>
+      <Name>Charles Glover</Name>
+      <Surname>Barkla</Surname>
+      <City>Edinburgh</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1918</ID>
+      <Name>Max Karl Ernst Ludwig</Name>
+      <Surname>Planck</Surname>
+      <City>Göttingen</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1919</ID>
+      <Name>Johannes</Name>
+      <Surname>Stark</Surname>
+      <City>Traunstein</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1920</ID>
+      <Name>Charles Edouard</Name>
+      <Surname>Guillaume</Surname>
+      <City>Sèvres</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1921</ID>
+      <Name>Albert</Name>
+      <Surname>Einstein</Surname>
+      <City>Princeton</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1922</ID>
+      <Name>Niels</Name>
+      <Surname>Bohr</Surname>
+      <City>Copenhagen</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1923</ID>
+      <Name>Robert Andrews</Name>
+      <Surname>Millikan</Surname>
+      <City>San Marino</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1924</ID>
+      <Name>Karl Manne Georg</Name>
+      <Surname>Siegbahn</Surname>
+      <City>Stockholm</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1925</ID>
+      <Name>James</Name>
+      <Surname>Franck</Surname>
+      <City>Göttingen</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1926</ID>
+      <Name>Jean Baptiste</Name>
+      <Surname>Perrin</Surname>
+      <City>New York</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1927</ID>
+      <Name>Arthur Holly</Name>
+      <Surname>Compton</Surname>
+      <City>Berkeley</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1928</ID>
+      <Name>Owen Willans</Name>
+      <Surname>Richardson</Surname>
+      <City>Alton</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1929</ID>
+      <Name>Louis-Victor Pierre Raymond</Name>
+      <Surname>de Broglie</Surname>
+      <City>Paris</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1930</ID>
+      <Name>Chandrasekhara Venkata</Name>
+      <Surname>Raman</Surname>
+      <City>Bangalore</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1932</ID>
+      <Name>Werner Karl</Name>
+      <Surname>Heisenberg</Surname>
+      <City>Munich</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1933</ID>
+      <Name>Erwin</Name>
+      <Surname>Schrödinger</Surname>
+      <City>Vienna</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1935</ID>
+      <Name>James</Name>
+      <Surname>Chadwick</Surname>
+      <City>Cambridge</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1936</ID>
+      <Name>Victor Franz</Name>
+      <Surname>Hess</Surname>
+      <City>Mount Verno</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1937</ID>
+      <Name>Clinton Joseph</Name>
+      <Surname>Davisson</Surname>
+      <City>Charlottesville</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1938</ID>
+      <Name>Enrico</Name>
+      <Surname>Fermi</Surname>
+      <City>Chicago</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1939</ID>
+      <Name>Ernest Orlando</Name>
+      <Surname>Lawrence</Surname>
+      <City>Palo Alto</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1943</ID>
+      <Name>Otto</Name>
+      <Surname>Stern</Surname>
+      <City>Berkeley</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1944</ID>
+      <Name>Isidor Isaac</Name>
+      <Surname>Rabi</Surname>
+      <City>New York</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1945</ID>
+      <Name>Wolfgang</Name>
+      <Surname>Pauli</Surname>
+      <City>Zurich</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1946</ID>
+      <Name>Percy Williams</Name>
+      <Surname>Bridgman</Surname>
+      <City>Cambridge</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1947</ID>
+      <Name>Edward Victor</Name>
+      <Surname>Appleton</Surname>
+      <City>Edinburgh</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1948</ID>
+      <Name>Patrick Maynard Stuart</Name>
+      <Surname>Blackett</Surname>
+      <City>London</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1949</ID>
+      <Name>Hideki</Name>
+      <Surname>Yukawa</Surname>
+      <City>Kyoto</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1950</ID>
+      <Name>Cecil Frank</Name>
+      <Surname>Powell</Surname>
+      <City>Bristol</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1951</ID>
+      <Name>John</Name>
+      <Surname>Cockcroft</Surname>
+      <City>Cambridge</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1952</ID>
+      <Name>Felix</Name>
+      <Surname>Bloch</Surname>
+      <City>Zurich</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1953</ID>
+      <Name>Frits</Name>
+      <Surname>Zernike</Surname>
+      <City>Groningen</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1954</ID>
+      <Name>Max</Name>
+      <Surname>Born</Surname>
+      <City>Göttingen</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1955</ID>
+      <Name>Willis Eugene</Name>
+      <Surname>Lamb</Surname>
+      <City>Stanford</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1956</ID>
+      <Name>William Bradford</Name>
+      <Surname>Shockley</Surname>
+      <City>Palo Alto</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1957</ID>
+      <Name>Chen Ning</Name>
+      <Surname>Yang</Surname>
+      <City>Anhwei</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1958</ID>
+      <Name>Pavel Alekseyevich</Name>
+      <Surname>Cherenkov</Surname>
+      <City>Novaya Chigla</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1959</ID>
+      <Name>Emilio Gino</Name>
+      <Surname>Segrè</Surname>
+      <City>Lafayette</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1960</ID>
+      <Name>Donald Arthur</Name>
+      <Surname>Glaser</Surname>
+      <City>Berkeley</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1961</ID>
+      <Name>Robert</Name>
+      <Surname>Hofstadter</Surname>
+      <City>Stanford</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1962</ID>
+      <Name>Lev Davidovich</Name>
+      <Surname>Landau</Surname>
+      <City>Moscow</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1963</ID>
+      <Name>Eugene Paul</Name>
+      <Surname>Wigner</Surname>
+      <City>Princeton</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1964</ID>
+      <Name>Nicolay Gennadiyevich</Name>
+      <Surname>Basov</Surname>
+      <City>Moscow</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1965</ID>
+      <Name>Sin-Itiro</Name>
+      <Surname>Tomonaga</Surname>
+      <City>Tokyo</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1966</ID>
+      <Name>Alfred</Name>
+      <Surname>Kastler</Surname>
+      <City>Bandol</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1967</ID>
+      <Name>Hans Albrecht</Name>
+      <Surname>Bethe</Surname>
+      <City>Ithaca</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1968</ID>
+      <Name>Luis Walter</Name>
+      <Surname>Alvarez</Surname>
+      <City>Berkeley</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1969</ID>
+      <Name>Murray</Name>
+      <Surname>Gell-Mann</Surname>
+      <City>Pasadena</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1970</ID>
+      <Name>Hannes Olof Gösta</Name>
+      <Surname>Alfvén</Surname>
+      <City>Djursholm</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1971</ID>
+      <Name>Dennis</Name>
+      <Surname>Gabor</Surname>
+      <City>London</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1972</ID>
+      <Name>John</Name>
+      <Surname>Bardeen</Surname>
+      <City>Boston</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1973</ID>
+      <Name>Leo</Name>
+      <Surname>Esaki</Surname>
+      <City>New York</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1974</ID>
+      <Name>Martin</Name>
+      <Surname>Ryle</Surname>
+      <City>Cambridge</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1975</ID>
+      <Name>Aage Niels</Name>
+      <Surname>Bohr</Surname>
+      <City>Copenhagen</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1976</ID>
+      <Name>Burton</Name>
+      <Surname>Richter</Surname>
+      <City>New York</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1977</ID>
+      <Name>Philip Warren</Name>
+      <Surname>Anderson</Surname>
+      <City>Murray Hill</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1978</ID>
+      <Name>Pyotr Leonidovich</Name>
+      <Surname>Kapitsa</Surname>
+      <City>Moscow</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1979</ID>
+      <Name>Sheldon Lee</Name>
+      <Surname>Glashow</Surname>
+      <City>New York</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1980</ID>
+      <Name>James Watson</Name>
+      <Surname>Cronin</Surname>
+      <City>Chicago</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1981</ID>
+      <Name>Nicolaas</Name>
+      <Surname>Bloembergen</Surname>
+      <City>Tucson</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1982</ID>
+      <Name>Kenneth G</Name>
+      <Surname>Wilson</Surname>
+      <City>Waltham</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1983</ID>
+      <Name>Subramanyan</Name>
+      <Surname>Chandrasekhar</Surname>
+      <City>Chicago</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1984</ID>
+      <Name>Carlo</Name>
+      <Surname>Rubbia</Surname>
+      <City>Geneva</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1985</ID>
+      <Name>Klaus</Name>
+      <Surname>von Klitzing</Surname>
+      <City>Stuttgart</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1986</ID>
+      <Name>Ernst</Name>
+      <Surname>Ruska</Surname>
+      <City>Berlin</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1987</ID>
+      <Name>J. Georg</Name>
+      <Surname>Bednorz</Surname>
+      <City>Zurich</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1988</ID>
+      <Name>Leon M.</Name>
+      <Surname>Lederman</Surname>
+      <City>Batavia</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1989</ID>
+      <Name>Norman F.</Name>
+      <Surname>Ramsey</Surname>
+      <City>Wayland</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1990</ID>
+      <Name>Jerome I.</Name>
+      <Surname>Friedman</Surname>
+      <City>Cambridge</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1991</ID>
+      <Name>Pierre-Gilles</Name>
+      <Surname>de Gennes</Surname>
+      <City>Orsay</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1992</ID>
+      <Name>Georges</Name>
+      <Surname>Charpak</Surname>
+      <City>Paris</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1993</ID>
+      <Name>Russell A.</Name>
+      <Surname>Hulse</Surname>
+      <City>Princeton</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1994</ID>
+      <Name>Bertram N.</Name>
+      <Surname>Brockhouse</Surname>
+      <City>Ontario</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1995</ID>
+      <Name>Martin L.</Name>
+      <Surname>Perl</Surname>
+      <City>Palo Alto</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1996</ID>
+      <Name>David M.</Name>
+      <Surname>Lee</Surname>
+      <City>Ithaca</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1997</ID>
+      <Name>Steven</Name>
+      <Surname>Chu</Surname>
+      <City>Stanford</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1998</ID>
+      <Name>Robert B.</Name>
+      <Surname>Laughlin</Surname>
+      <City>Stanford</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>1999</ID>
+      <Name>Gerardus</Name>
+      <Surname>'t Hooft</Surname>
+      <City>Utrecht</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>2000</ID>
+      <Name>Zhores</Name>
+      <Surname>Alferov</Surname>
+      <City>St. Petersburg</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>2001</ID>
+      <Name>Eric</Name>
+      <Surname>Cornell</Surname>
+      <City>Boulder</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>2002</ID>
+      <Name>Raymond</Name>
+      <Surname>Davis</Surname>
+      <City>New York</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>2003</ID>
+      <Name>Alexei</Name>
+      <Surname>Abrikosov</Surname>
+      <City>Argonne</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>2004</ID>
+      <Name>David J.</Name>
+      <Surname>Gross</Surname>
+      <City>Santa Barbara</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>2005</ID>
+      <Name>Roy J.</Name>
+      <Surname>Glauber</Surname>
+      <City>Cambridge</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>2006</ID>
+      <Name>John C.</Name>
+      <Surname>Mather</Surname>
+      <City>Greenbelt</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>2007</ID>
+      <Name>Albert</Name>
+      <Surname>Fert</Surname>
+      <City>Orsay</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>2008</ID>
+      <Name>Yoichiro</Name>
+      <Surname>Nambu</Surname>
+      <City>Osaka</City>
+    </NobelPhysicsLaureate>
+    <NobelPhysicsLaureate>
+      <ID>2009</ID>
+      <Name>Charles Kuen</Name>
+      <Surname>Kao</Surname>
+      <City>Hong Kong</City>
+    </NobelPhysicsLaureate>
+  </NPLList>
+</NobelPhysicsLaureateList>

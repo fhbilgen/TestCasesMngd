@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DAEDC62F-C4D9-4445-8181-F773ECFCB339}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BuggerNet</RootNamespace>
+    <AssemblyName>BuggerNet</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connected Services\DemoServiceClient\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\DemoServiceSecureClient\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\DemoServiceSesAClient\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\DemoServiceSesNAClient\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="frmFSConstructor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFSConstructor.designer.cs">
+      <DependentUpon>frmFSConstructor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenericDictionary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenericDictionary.Designer.cs">
+      <DependentUpon>frmGenericDictionary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHogCPU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHogCPU.Designer.cs">
+      <DependentUpon>frmHogCPU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWCFPrxProblem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWCFPrxProblem.Designer.cs">
+      <DependentUpon>frmWCFPrxProblem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWCFSecureClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWCFSecureClient.Designer.cs">
+      <DependentUpon>frmWCFSecureClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWCFLoadTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWCFLoadTest.Designer.cs">
+      <DependentUpon>frmWCFLoadTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMemoryTests.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMemoryTests.Designer.cs">
+      <DependentUpon>frmMemoryTests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTCPClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTCPClient.Designer.cs">
+      <DependentUpon>frmTCPClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTCPHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTCPHost.Designer.cs">
+      <DependentUpon>frmTCPHost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWCFSingleTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWCFSingleTest.Designer.cs">
+      <DependentUpon>frmWCFSingleTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWrongDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWrongDelete.Designer.cs">
+      <DependentUpon>frmWrongDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWCFHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWCFHost.Designer.cs">
+      <DependentUpon>frmWCFHost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmFSConstructor.resx">
+      <DependentUpon>frmFSConstructor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHogCPU.resx">
+      <DependentUpon>frmHogCPU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWCFPrxProblem.resx">
+      <DependentUpon>frmWCFPrxProblem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWCFSecureClient.resx">
+      <DependentUpon>frmWCFSecureClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWCFLoadTest.resx">
+      <DependentUpon>frmWCFLoadTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMemoryTests.resx">
+      <DependentUpon>frmMemoryTests.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTCPClient.resx">
+      <DependentUpon>frmTCPClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTCPHost.resx">
+      <DependentUpon>frmTCPHost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWCFSingleTest.resx">
+      <DependentUpon>frmWCFSingleTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWrongDelete.resx">
+      <DependentUpon>frmWrongDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWCFHost.resx">
+      <DependentUpon>frmWCFHost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Connected Services\DemoServiceClient\BuggerNetSvc.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\DemoServiceClient\service.wsdl" />
+    <None Include="Connected Services\DemoServiceClient\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\DemoServiceClient\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\DemoServiceSecureClient\DemoServiceSecure.wsdl" />
+    <None Include="Connected Services\DemoServiceSecureClient\DemoServiceWSDL.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\DemoServiceSecureClient\DemoServiceWSDL1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\DemoServiceSesAClient\DemoServiceSesA.wsdl" />
+    <None Include="Connected Services\DemoServiceSesAClient\DemoServiceWSDL.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\DemoServiceSesAClient\DemoServiceWSDL1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\DemoServiceSesNAClient\DemoServiceSesNA.wsdl" />
+    <None Include="Connected Services\DemoServiceSesNAClient\DemoServiceWSDL.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\DemoServiceSesNAClient\DemoServiceWSDL1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\BuggerNetSvc.PersonInfo.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BuggerNetEng\BuggerNetEng.csproj">
+      <Project>{fc6dace8-4f8d-483c-9fdf-973fe15688b0}</Project>
+      <Name>BuggerNetEng</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BuggerNetSvc\BuggerNetSvc.csproj">
+      <Project>{0d45d22c-2052-431a-9bea-7b06a827ea78}</Project>
+      <Name>BuggerNetSvc</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\DemoServiceClient\" />
+    <WCFMetadataStorage Include="Connected Services\DemoServiceSecureClient\" />
+    <WCFMetadataStorage Include="Connected Services\DemoServiceSesAClient\" />
+    <WCFMetadataStorage Include="Connected Services\DemoServiceSesNAClient\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoServiceClient\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoServiceClient\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoServiceClient\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoServiceSesAClient\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoServiceSesAClient\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoServiceSesAClient\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoServiceSesNAClient\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoServiceSesNAClient\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoServiceSesNAClient\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoServiceSecureClient\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoServiceSecureClient\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoServiceSecureClient\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
