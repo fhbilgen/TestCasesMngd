@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuggerNetEng
+namespace BuggerNetEng.Engine
 {
     public class MyObject
     {
-        string _str;
+        readonly string _str;
         double _d;
         int _i;
 
@@ -32,12 +32,10 @@ namespace BuggerNetEng
 
         public static void ShrinkList(int numOfObjectstoRemove)
         {
-            int x = 0;
-
             if (_objList.Count == 0)
                 return;
 
-            x = _objList.Count - numOfObjectstoRemove - 1;
+            int x = _objList.Count - numOfObjectstoRemove - 1;
             for (int i = _objList.Count - 1; i != x; i--)
                 _objList.RemoveAt(i);
 

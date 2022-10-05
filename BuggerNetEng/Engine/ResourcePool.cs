@@ -5,21 +5,21 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace BuggerNetEng
+namespace BuggerNetEng.Engine
 {
     public enum ResourceDefinition
     {
         MIN = 20,
-        MAX=50
+        MAX = 50
     }
 
     public class ResourcePool
     {
         public const int POOL_MIN_SIZE = 20;
-        public const int POOL_MAX_SIZE = 50;        
+        public const int POOL_MAX_SIZE = 50;
         public Thread m_thread;
 
-        public static Boolean IsInitialized { get; set; }
+        public static bool IsInitialized { get; set; }
         public static List<int> AvailableResources { get; set; }
         public ResourcePool()
         {
@@ -44,9 +44,9 @@ namespace BuggerNetEng
         {
             int interval;
             interval = (int)duration;
-            while (ResourcePool.IsInitialized )
+            while (IsInitialized)
             {
-                if (ResourcePool.AvailableResources.Count <= ResourcePool.POOL_MIN_SIZE)
+                if (AvailableResources.Count <= POOL_MIN_SIZE)
                 {
                     AvailableResources.Add(1);
                     Thread.Sleep(interval);

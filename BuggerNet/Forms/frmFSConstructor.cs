@@ -10,8 +10,8 @@ using System.Windows.Forms;
 using System.IO;
 using System.Xml.Serialization;
 using System.Threading;
-using BuggerNetEng;
 using System.Configuration;
+using BuggerNetEng.Engine;
 
 namespace BuggerNet
 {

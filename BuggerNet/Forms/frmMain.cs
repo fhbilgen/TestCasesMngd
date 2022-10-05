@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BuggerNet.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,76 +18,88 @@ namespace BuggerNet
             InitializeComponent();
         }
 
-        private void fileBeingUsedToolStripMenuItem_Click(object sender, EventArgs e)
+        private void FileBeingUsedToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmFSConstructor frmFSConstructor = new frmFSConstructor();
             frmFSConstructor.ShowDialog();
         }
 
-        private void threadUnsafeGDAccessToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ThreadUnsafeGDAccessToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmGenericDictionary frmGenericDictionary = new frmGenericDictionary();
             frmGenericDictionary.ShowDialog();
         }
 
-        private void constantCPUUsageToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ConstantCPUUsageToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmHogCPU frmHogCPU = new frmHogCPU();
             frmHogCPU.ShowDialog();
         }
 
-        private void testsToolStripMenuItem_Click(object sender, EventArgs e)
+        private void TestsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmMemoryTests frmMemoryTests = new frmMemoryTests();
             frmMemoryTests.ShowDialog();
         }
 
-        private void connectToTCPServerToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ConnectToTCPServerToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmTCPClient frmTCPClient = new frmTCPClient();
             frmTCPClient.ShowDialog();
         }
 
-        private void startTCPServerToolStripMenuItem_Click(object sender, EventArgs e)
+        private void StartTCPServerToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmTCPHost frmTCPHost = new frmTCPHost();
             frmTCPHost.ShowDialog();
         }
 
-        private void longListAccessToolStripMenuItem_Click(object sender, EventArgs e)
+        private void LongListAccessToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmWrongDelete frmWrongDelete = new frmWrongDelete();
             frmWrongDelete.ShowDialog();
         }
 
-        private void serviceHostingToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ServiceHostingToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmWCFHost frmWCFHost = new frmWCFHost();
             frmWCFHost.ShowDialog();
         }
 
-        private void loadTestClientToolStripMenuItem_Click(object sender, EventArgs e)
+        private void LoadTestClientToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmWCFLoadTest frmWCFLoadTest = new frmWCFLoadTest();
             frmWCFLoadTest.ShowDialog();
         }
 
-        private void secureClientToolStripMenuItem_Click(object sender, EventArgs e)
+        private void SecureClientToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmWCFSecureClient frmWCFSecureClient = new frmWCFSecureClient();
             frmWCFSecureClient.ShowDialog();
         }
 
-        private void singleTestClientToolStripMenuItem_Click(object sender, EventArgs e)
+        private void SingleTestClientToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmWCFSingleTest frmWCFSingleTest = new frmWCFSingleTest();
             frmWCFSingleTest.ShowDialog();
         }
 
-        private void proxyProblemToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ProxyProblemToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmWCFPrxProblem frmWCFPrxProblem = new frmWCFPrxProblem();
             frmWCFPrxProblem.ShowDialog();
+        }
+
+        private void BenchmarkDemoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frm = new frmBnchmrkDm();
+            frm.ShowDialog();
+        }
+
+        private void NewObjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frm = new FrmCreateObj();
+            frm.ShowDialog();
         }
     }
 }
