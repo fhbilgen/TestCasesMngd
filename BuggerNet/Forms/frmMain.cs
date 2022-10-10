@@ -101,5 +101,11 @@ namespace BuggerNet
             var frm = new FrmCreateObj();
             frm.ShowDialog();
         }
+
+        private void gCNotificationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frm = new FrmMemGCNotification();
+            frm.ShowDialog();
+        }
     }
 }

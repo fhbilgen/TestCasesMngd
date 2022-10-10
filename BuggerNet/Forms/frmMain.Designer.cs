@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.memoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.testsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.newObjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cPUToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.constantCPUUsageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.longListAccessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -38,6 +39,7 @@
             this.startTCPServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.connectToTCPServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.longServiceResponseTimeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.benchmarkDemoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wAITToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tooLowRequestssecToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unresponsiveUIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,8 +52,7 @@
             this.singleTestClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.secureClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.proxyProblemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.benchmarkDemoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.newObjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gCNotificationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,7 +76,8 @@
             // 
             this.memoryToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.testsToolStripMenuItem,
-            this.newObjectToolStripMenuItem});
+            this.newObjectToolStripMenuItem,
+            this.gCNotificationToolStripMenuItem});
             this.memoryToolStripMenuItem.Name = "memoryToolStripMenuItem";
             this.memoryToolStripMenuItem.Size = new System.Drawing.Size(70, 22);
             this.memoryToolStripMenuItem.Text = "MEMORY";
@@ -83,9 +85,16 @@
             // testsToolStripMenuItem
             // 
             this.testsToolStripMenuItem.Name = "testsToolStripMenuItem";
-            this.testsToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
+            this.testsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.testsToolStripMenuItem.Text = "Tests";
             this.testsToolStripMenuItem.Click += new System.EventHandler(this.TestsToolStripMenuItem_Click);
+            // 
+            // newObjectToolStripMenuItem
+            // 
+            this.newObjectToolStripMenuItem.Name = "newObjectToolStripMenuItem";
+            this.newObjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newObjectToolStripMenuItem.Text = "New Object";
+            this.newObjectToolStripMenuItem.Click += new System.EventHandler(this.NewObjectToolStripMenuItem_Click);
             // 
             // cPUToolStripMenuItem
             // 
@@ -141,6 +150,13 @@
             this.longServiceResponseTimeToolStripMenuItem.Name = "longServiceResponseTimeToolStripMenuItem";
             this.longServiceResponseTimeToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
             this.longServiceResponseTimeToolStripMenuItem.Text = "Long Service Response Time";
+            // 
+            // benchmarkDemoToolStripMenuItem
+            // 
+            this.benchmarkDemoToolStripMenuItem.Name = "benchmarkDemoToolStripMenuItem";
+            this.benchmarkDemoToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
+            this.benchmarkDemoToolStripMenuItem.Text = "Benchmark Demo";
+            this.benchmarkDemoToolStripMenuItem.Click += new System.EventHandler(this.BenchmarkDemoToolStripMenuItem_Click);
             // 
             // wAITToolStripMenuItem
             // 
@@ -231,19 +247,12 @@
             this.proxyProblemToolStripMenuItem.Text = "Proxy Problem";
             this.proxyProblemToolStripMenuItem.Click += new System.EventHandler(this.ProxyProblemToolStripMenuItem_Click);
             // 
-            // benchmarkDemoToolStripMenuItem
+            // gCNotificationToolStripMenuItem
             // 
-            this.benchmarkDemoToolStripMenuItem.Name = "benchmarkDemoToolStripMenuItem";
-            this.benchmarkDemoToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
-            this.benchmarkDemoToolStripMenuItem.Text = "Benchmark Demo";
-            this.benchmarkDemoToolStripMenuItem.Click += new System.EventHandler(this.BenchmarkDemoToolStripMenuItem_Click);
-            // 
-            // newObjectToolStripMenuItem
-            // 
-            this.newObjectToolStripMenuItem.Name = "newObjectToolStripMenuItem";
-            this.newObjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.newObjectToolStripMenuItem.Text = "New Object";
-            this.newObjectToolStripMenuItem.Click += new System.EventHandler(this.NewObjectToolStripMenuItem_Click);
+            this.gCNotificationToolStripMenuItem.Name = "gCNotificationToolStripMenuItem";
+            this.gCNotificationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gCNotificationToolStripMenuItem.Text = "GC Notification";
+            this.gCNotificationToolStripMenuItem.Click += new System.EventHandler(this.gCNotificationToolStripMenuItem_Click);
             // 
             // frmMain
             // 
@@ -289,6 +298,7 @@
         private System.Windows.Forms.ToolStripMenuItem proxyProblemToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem benchmarkDemoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newObjectToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gCNotificationToolStripMenuItem;
     }
 }
 
