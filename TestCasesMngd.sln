@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MANAGED", "MANAGED", "{1A4EC751-3915-4AAA-8D37-E4F4079EA51E}"
+	ProjectSection(SolutionItems) = preProject
+		References.txt = References.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NATIVE", "NATIVE", "{6ABCBCB4-C66F-4A63-970E-3232204A9ADF}"
 EndProject

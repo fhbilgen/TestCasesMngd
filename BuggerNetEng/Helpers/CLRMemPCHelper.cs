@@ -67,7 +67,7 @@ namespace BuggerNetEng.Helpers
         {
             string[] result = new string[PCCount];
             for(int i = 0; i != PCCount; i++)
-                result[i] = Counters[i].NextValue().ToString("n2");
+                result[i] = Counters[i].NextValue().ToString("n");
 
             return result;
         }

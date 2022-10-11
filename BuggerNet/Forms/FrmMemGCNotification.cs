@@ -80,6 +80,7 @@ namespace BuggerNet.Forms
             this.lvPC.Columns.Add("Value");
             this.lvPC.Columns[0].Width = (int)(this.lvPC.Width * 0.5);
             this.lvPC.Columns[1].Width = (int)(this.lvPC.Width * 0.45);
+            this.lvPC.Columns[1].TextAlign = HorizontalAlignment.Right;
 
             for (int i = 0; i != CLRMemPCHelper.CounterNames.Length; i++)
             {

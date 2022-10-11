@@ -1,0 +1,4 @@
+Visual Studio Tools
+
+https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2015/profiling/profiling-tools?view=vs-2015&redirectedfrom=MSDN#BKMK_Diagnostic_events_dropped
+https://devblogs.microsoft.com/devops/diagnosing-memory-issues-with-the-new-memory-usage-tool-in-visual-studio/
