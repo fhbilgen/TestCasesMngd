@@ -222,6 +222,12 @@
     <Compile Include="Forms\frmCreateObj.Designer.cs">
       <DependentUpon>frmCreateObj.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FrmThreads.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmThreads.Designer.cs">
+      <DependentUpon>FrmThreads.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmFSConstructor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -313,6 +319,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmCreateObj.resx">
       <DependentUpon>frmCreateObj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmThreads.resx">
+      <DependentUpon>FrmThreads.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmFSConstructor.resx">
       <DependentUpon>frmFSConstructor.cs</DependentUpon>

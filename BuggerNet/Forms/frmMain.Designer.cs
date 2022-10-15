@@ -32,6 +32,7 @@
             this.memoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.testsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newObjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gCNotificationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cPUToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.constantCPUUsageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.longListAccessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,6 +46,8 @@
             this.unresponsiveUIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eXCEPTIONSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileBeingUsedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.threadingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backgroundVsForegroundToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wCFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.serviceHostingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -52,7 +55,6 @@
             this.singleTestClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.secureClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.proxyProblemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gCNotificationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,11 +66,12 @@
             this.cPUToolStripMenuItem,
             this.wAITToolStripMenuItem,
             this.eXCEPTIONSToolStripMenuItem,
+            this.threadingToolStripMenuItem,
             this.wCFToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(444, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(508, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -85,16 +88,23 @@
             // testsToolStripMenuItem
             // 
             this.testsToolStripMenuItem.Name = "testsToolStripMenuItem";
-            this.testsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.testsToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.testsToolStripMenuItem.Text = "Tests";
             this.testsToolStripMenuItem.Click += new System.EventHandler(this.TestsToolStripMenuItem_Click);
             // 
             // newObjectToolStripMenuItem
             // 
             this.newObjectToolStripMenuItem.Name = "newObjectToolStripMenuItem";
-            this.newObjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newObjectToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.newObjectToolStripMenuItem.Text = "New Object";
             this.newObjectToolStripMenuItem.Click += new System.EventHandler(this.NewObjectToolStripMenuItem_Click);
+            // 
+            // gCNotificationToolStripMenuItem
+            // 
+            this.gCNotificationToolStripMenuItem.Name = "gCNotificationToolStripMenuItem";
+            this.gCNotificationToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.gCNotificationToolStripMenuItem.Text = "GC Notification";
+            this.gCNotificationToolStripMenuItem.Click += new System.EventHandler(this.GCNotificationToolStripMenuItem_Click);
             // 
             // cPUToolStripMenuItem
             // 
@@ -194,6 +204,21 @@
             this.fileBeingUsedToolStripMenuItem.Text = "File being used...";
             this.fileBeingUsedToolStripMenuItem.Click += new System.EventHandler(this.FileBeingUsedToolStripMenuItem_Click);
             // 
+            // threadingToolStripMenuItem
+            // 
+            this.threadingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.backgroundVsForegroundToolStripMenuItem});
+            this.threadingToolStripMenuItem.Name = "threadingToolStripMenuItem";
+            this.threadingToolStripMenuItem.Size = new System.Drawing.Size(83, 22);
+            this.threadingToolStripMenuItem.Text = "THREADING";
+            // 
+            // backgroundVsForegroundToolStripMenuItem
+            // 
+            this.backgroundVsForegroundToolStripMenuItem.Name = "backgroundVsForegroundToolStripMenuItem";
+            this.backgroundVsForegroundToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.backgroundVsForegroundToolStripMenuItem.Text = "Managed Thread";
+            this.backgroundVsForegroundToolStripMenuItem.Click += new System.EventHandler(this.BackgroundVsForegroundToolStripMenuItem_Click);
+            // 
             // wCFToolStripMenuItem
             // 
             this.wCFToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -247,18 +272,11 @@
             this.proxyProblemToolStripMenuItem.Text = "Proxy Problem";
             this.proxyProblemToolStripMenuItem.Click += new System.EventHandler(this.ProxyProblemToolStripMenuItem_Click);
             // 
-            // gCNotificationToolStripMenuItem
-            // 
-            this.gCNotificationToolStripMenuItem.Name = "gCNotificationToolStripMenuItem";
-            this.gCNotificationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.gCNotificationToolStripMenuItem.Text = "GC Notification";
-            this.gCNotificationToolStripMenuItem.Click += new System.EventHandler(this.gCNotificationToolStripMenuItem_Click);
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(444, 159);
+            this.ClientSize = new System.Drawing.Size(508, 159);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -299,6 +317,8 @@
         private System.Windows.Forms.ToolStripMenuItem benchmarkDemoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newObjectToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gCNotificationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem threadingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem backgroundVsForegroundToolStripMenuItem;
     }
 }
 

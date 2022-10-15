@@ -45,9 +45,9 @@ namespace BuggerNet.Forms
             this.lblLOHTh = new System.Windows.Forms.Label();
             this.tcbLOHTh = new System.Windows.Forms.TrackBar();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lvPC = new System.Windows.Forms.ListView();
             this.label1 = new System.Windows.Forms.Label();
             this.tbPCFreq = new System.Windows.Forms.TextBox();
+            this.lvPC = new System.Windows.Forms.ListView();
             this.tmrPCRefresh = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.tcbGen2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tcbLOHTh)).BeginInit();
@@ -195,16 +195,6 @@ namespace BuggerNet.Forms
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             // 
-            // lvPC
-            // 
-            this.lvPC.HideSelection = false;
-            this.lvPC.Location = new System.Drawing.Point(12, 258);
-            this.lvPC.Name = "lvPC";
-            this.lvPC.Size = new System.Drawing.Size(287, 354);
-            this.lvPC.TabIndex = 14;
-            this.lvPC.UseCompatibleStateImageBehavior = false;
-            this.lvPC.View = System.Windows.Forms.View.Details;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -222,9 +212,19 @@ namespace BuggerNet.Forms
             this.tbPCFreq.TabIndex = 14;
             this.tbPCFreq.Text = "1";
             // 
+            // lvPC
+            // 
+            this.lvPC.HideSelection = false;
+            this.lvPC.Location = new System.Drawing.Point(12, 258);
+            this.lvPC.Name = "lvPC";
+            this.lvPC.Size = new System.Drawing.Size(287, 354);
+            this.lvPC.TabIndex = 14;
+            this.lvPC.UseCompatibleStateImageBehavior = false;
+            this.lvPC.View = System.Windows.Forms.View.Details;
+            // 
             // tmrPCRefresh
             // 
-            this.tmrPCRefresh.Enabled = false;
+            this.tmrPCRefresh.Interval = 2000;
             this.tmrPCRefresh.Tick += new System.EventHandler(this.TmrPCRefresh_Tick);
             // 
             // FrmMemGCNotification
