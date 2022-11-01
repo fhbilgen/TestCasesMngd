@@ -45,6 +45,12 @@ namespace BuggerNet.DemoServiceClient {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDemoService/CauseException", ReplyAction="http://tempuri.org/IDemoService/CauseExceptionResponse")]
         System.Threading.Tasks.Task CauseExceptionAsync();
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDemoService/NeverReturn", ReplyAction="http://tempuri.org/IDemoService/NeverReturnResponse")]
+        void NeverReturn();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDemoService/NeverReturn", ReplyAction="http://tempuri.org/IDemoService/NeverReturnResponse")]
+        System.Threading.Tasks.Task NeverReturnAsync();
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDemoService/GuessGender", ReplyAction="http://tempuri.org/IDemoService/GuessGenderResponse")]
         BuggerNetSvc.Sex GuessGender(BuggerNetSvc.PersonInfo pi);
         
@@ -129,6 +135,14 @@ namespace BuggerNet.DemoServiceClient {
         
         public System.Threading.Tasks.Task CauseExceptionAsync() {
             return base.Channel.CauseExceptionAsync();
+        }
+        
+        public void NeverReturn() {
+            base.Channel.NeverReturn();
+        }
+        
+        public System.Threading.Tasks.Task NeverReturnAsync() {
+            return base.Channel.NeverReturnAsync();
         }
         
         public BuggerNetSvc.Sex GuessGender(BuggerNetSvc.PersonInfo pi) {

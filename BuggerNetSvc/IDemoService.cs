@@ -27,6 +27,9 @@ namespace BuggerNetSvc
         void CauseException();
 
         [OperationContract]
+        void NeverReturn();
+
+        [OperationContract]
         Sex GuessGender(PersonInfo pi);
 
         [OperationContract]

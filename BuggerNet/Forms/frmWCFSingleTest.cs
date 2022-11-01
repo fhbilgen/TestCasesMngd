@@ -64,7 +64,7 @@ namespace BuggerNet
             {
                 case "DemoServiceClient":
                     dsc = new DemoServiceClient.DemoServiceClient();
-                    tbPing.Text = dsc.Ping();
+                    tbPing.Text = dsc.Ping();                    
                     dsc.Close();
                     break;
 
@@ -342,6 +342,25 @@ namespace BuggerNet
                     tbGetPerson.Text = string.Format("{0} {1} {2} years old", pi.Name, pi.Surname, pi.Age);
                     break;
 
+                default:
+                    MessageBox.Show("No Client!");
+                    break;
+            }
+        }
+
+        private void btn_NeverReturn_Click(object sender, EventArgs e)
+        {
+            DemoServiceClient.DemoServiceClient dsc;
+
+            switch (cBoxClientList.SelectedItem.ToString())
+            {
+                case "DemoServiceClient":
+                    dsc = new DemoServiceClient.DemoServiceClient();
+                    dsc.NeverReturn();
+                    tbPing.Text = "Never return called";
+                    dsc.Close();
+                    break;
+                
                 default:
                     MessageBox.Show("No Client!");
                     break;

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -34,6 +35,15 @@ namespace BuggerNetSvc
         public void CauseException()
         {
             throw new System.Exception("CausesException threw this exception");
+        }
+
+        [MethodImpl(MethodImplOptions.NoInlining | MethodImplOptions.NoOptimization) ]
+        public void NeverReturn()
+        {
+            while(true)
+            {
+                System.Threading.Thread.Sleep(500);
+            }
         }
 
         public Sex GuessGender(PersonInfo pi)

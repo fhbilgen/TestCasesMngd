@@ -37,6 +37,12 @@
   <wsdl:message name="IDemoService_CauseException_OutputMessage">
     <wsdl:part name="parameters" element="tns:CauseExceptionResponse" />
   </wsdl:message>
+  <wsdl:message name="IDemoService_NeverReturn_InputMessage">
+    <wsdl:part name="parameters" element="tns:NeverReturn" />
+  </wsdl:message>
+  <wsdl:message name="IDemoService_NeverReturn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NeverReturnResponse" />
+  </wsdl:message>
   <wsdl:message name="IDemoService_GuessGender_InputMessage">
     <wsdl:part name="parameters" element="tns:GuessGender" />
   </wsdl:message>
@@ -75,6 +81,10 @@
     <wsdl:operation name="CauseException">
       <wsdl:input wsaw:Action="http://tempuri.org/IDemoService/CauseException" message="tns:IDemoService_CauseException_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IDemoService/CauseExceptionResponse" message="tns:IDemoService_CauseException_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NeverReturn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDemoService/NeverReturn" message="tns:IDemoService_NeverReturn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDemoService/NeverReturnResponse" message="tns:IDemoService_NeverReturn_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="GuessGender">
       <wsdl:input wsaw:Action="http://tempuri.org/IDemoService/GuessGender" message="tns:IDemoService_GuessGender_InputMessage" />
@@ -129,6 +139,15 @@
     </wsdl:operation>
     <wsdl:operation name="CauseException">
       <soap:operation soapAction="http://tempuri.org/IDemoService/CauseException" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NeverReturn">
+      <soap:operation soapAction="http://tempuri.org/IDemoService/NeverReturn" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

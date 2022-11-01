@@ -51,12 +51,14 @@
             this.btnGetHostTime = new System.Windows.Forms.Button();
             this.cBoxClientList = new System.Windows.Forms.ComboBox();
             this.lblServiceName = new System.Windows.Forms.Label();
+            this.btn_NeverReturn = new System.Windows.Forms.Button();
+            this.tbNeverReturn = new System.Windows.Forms.TextBox();
             this.gbMethodInvocation.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbHostTime
             // 
-            this.tbHostTime.Location = new System.Drawing.Point(121, 142);
+            this.tbHostTime.Location = new System.Drawing.Point(121, 141);
             this.tbHostTime.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tbHostTime.Name = "tbHostTime";
             this.tbHostTime.Size = new System.Drawing.Size(176, 20);
@@ -64,6 +66,8 @@
             // 
             // gbMethodInvocation
             // 
+            this.gbMethodInvocation.Controls.Add(this.tbNeverReturn);
+            this.gbMethodInvocation.Controls.Add(this.btn_NeverReturn);
             this.gbMethodInvocation.Controls.Add(this.tbGetPerson);
             this.gbMethodInvocation.Controls.Add(this.btnGetPerson);
             this.gbMethodInvocation.Controls.Add(this.tbGuessGender);
@@ -88,14 +92,14 @@
             this.gbMethodInvocation.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.gbMethodInvocation.Name = "gbMethodInvocation";
             this.gbMethodInvocation.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.gbMethodInvocation.Size = new System.Drawing.Size(311, 422);
+            this.gbMethodInvocation.Size = new System.Drawing.Size(311, 448);
             this.gbMethodInvocation.TabIndex = 25;
             this.gbMethodInvocation.TabStop = false;
             this.gbMethodInvocation.Text = "Method Calls";
             // 
             // tbGetPerson
             // 
-            this.tbGetPerson.Location = new System.Drawing.Point(121, 378);
+            this.tbGetPerson.Location = new System.Drawing.Point(121, 369);
             this.tbGetPerson.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tbGetPerson.Name = "tbGetPerson";
             this.tbGetPerson.Size = new System.Drawing.Size(176, 20);
@@ -103,7 +107,7 @@
             // 
             // btnGetPerson
             // 
-            this.btnGetPerson.Location = new System.Drawing.Point(5, 378);
+            this.btnGetPerson.Location = new System.Drawing.Point(5, 367);
             this.btnGetPerson.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnGetPerson.Name = "btnGetPerson";
             this.btnGetPerson.Size = new System.Drawing.Size(106, 25);
@@ -114,7 +118,7 @@
             // 
             // tbGuessGender
             // 
-            this.tbGuessGender.Location = new System.Drawing.Point(121, 339);
+            this.tbGuessGender.Location = new System.Drawing.Point(121, 331);
             this.tbGuessGender.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tbGuessGender.Name = "tbGuessGender";
             this.tbGuessGender.Size = new System.Drawing.Size(176, 20);
@@ -122,7 +126,7 @@
             // 
             // btnGuessGender
             // 
-            this.btnGuessGender.Location = new System.Drawing.Point(5, 339);
+            this.btnGuessGender.Location = new System.Drawing.Point(5, 329);
             this.btnGuessGender.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnGuessGender.Name = "btnGuessGender";
             this.btnGuessGender.Size = new System.Drawing.Size(106, 25);
@@ -133,7 +137,7 @@
             // 
             // tbGetCounter
             // 
-            this.tbGetCounter.Location = new System.Drawing.Point(121, 298);
+            this.tbGetCounter.Location = new System.Drawing.Point(121, 293);
             this.tbGetCounter.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tbGetCounter.Name = "tbGetCounter";
             this.tbGetCounter.Size = new System.Drawing.Size(176, 20);
@@ -141,7 +145,7 @@
             // 
             // tbDecrementCounter
             // 
-            this.tbDecrementCounter.Location = new System.Drawing.Point(121, 259);
+            this.tbDecrementCounter.Location = new System.Drawing.Point(121, 255);
             this.tbDecrementCounter.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tbDecrementCounter.Name = "tbDecrementCounter";
             this.tbDecrementCounter.Size = new System.Drawing.Size(176, 20);
@@ -149,7 +153,7 @@
             // 
             // tbIncrementCounter
             // 
-            this.tbIncrementCounter.Location = new System.Drawing.Point(121, 220);
+            this.tbIncrementCounter.Location = new System.Drawing.Point(121, 217);
             this.tbIncrementCounter.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tbIncrementCounter.Name = "tbIncrementCounter";
             this.tbIncrementCounter.Size = new System.Drawing.Size(176, 20);
@@ -157,7 +161,7 @@
             // 
             // tbCauseException
             // 
-            this.tbCauseException.Location = new System.Drawing.Point(121, 181);
+            this.tbCauseException.Location = new System.Drawing.Point(121, 179);
             this.tbCauseException.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tbCauseException.Name = "tbCauseException";
             this.tbCauseException.Size = new System.Drawing.Size(176, 20);
@@ -165,7 +169,7 @@
             // 
             // btnGetCounter
             // 
-            this.btnGetCounter.Location = new System.Drawing.Point(5, 298);
+            this.btnGetCounter.Location = new System.Drawing.Point(5, 291);
             this.btnGetCounter.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnGetCounter.Name = "btnGetCounter";
             this.btnGetCounter.Size = new System.Drawing.Size(106, 25);
@@ -176,7 +180,7 @@
             // 
             // btnDecrementCounter
             // 
-            this.btnDecrementCounter.Location = new System.Drawing.Point(5, 259);
+            this.btnDecrementCounter.Location = new System.Drawing.Point(5, 253);
             this.btnDecrementCounter.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnDecrementCounter.Name = "btnDecrementCounter";
             this.btnDecrementCounter.Size = new System.Drawing.Size(106, 25);
@@ -187,7 +191,7 @@
             // 
             // btnIncrementCounter
             // 
-            this.btnIncrementCounter.Location = new System.Drawing.Point(5, 220);
+            this.btnIncrementCounter.Location = new System.Drawing.Point(5, 215);
             this.btnIncrementCounter.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnIncrementCounter.Name = "btnIncrementCounter";
             this.btnIncrementCounter.Size = new System.Drawing.Size(106, 25);
@@ -198,7 +202,7 @@
             // 
             // btnCauseException
             // 
-            this.btnCauseException.Location = new System.Drawing.Point(5, 181);
+            this.btnCauseException.Location = new System.Drawing.Point(5, 177);
             this.btnCauseException.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnCauseException.Name = "btnCauseException";
             this.btnCauseException.Size = new System.Drawing.Size(106, 25);
@@ -220,7 +224,7 @@
             // 
             // tbPing
             // 
-            this.tbPing.Location = new System.Drawing.Point(121, 25);
+            this.tbPing.Location = new System.Drawing.Point(121, 27);
             this.tbPing.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tbPing.Name = "tbPing";
             this.tbPing.Size = new System.Drawing.Size(176, 20);
@@ -228,7 +232,7 @@
             // 
             // btnEcho
             // 
-            this.btnEcho.Location = new System.Drawing.Point(5, 64);
+            this.btnEcho.Location = new System.Drawing.Point(5, 63);
             this.btnEcho.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnEcho.Name = "btnEcho";
             this.btnEcho.Size = new System.Drawing.Size(106, 25);
@@ -239,7 +243,7 @@
             // 
             // tbEcho
             // 
-            this.tbEcho.Location = new System.Drawing.Point(121, 64);
+            this.tbEcho.Location = new System.Drawing.Point(121, 65);
             this.tbEcho.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tbEcho.Name = "tbEcho";
             this.tbEcho.Size = new System.Drawing.Size(176, 20);
@@ -247,7 +251,7 @@
             // 
             // btnGetHostName
             // 
-            this.btnGetHostName.Location = new System.Drawing.Point(5, 103);
+            this.btnGetHostName.Location = new System.Drawing.Point(5, 101);
             this.btnGetHostName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnGetHostName.Name = "btnGetHostName";
             this.btnGetHostName.Size = new System.Drawing.Size(106, 25);
@@ -266,7 +270,7 @@
             // 
             // btnGetHostTime
             // 
-            this.btnGetHostTime.Location = new System.Drawing.Point(5, 142);
+            this.btnGetHostTime.Location = new System.Drawing.Point(5, 139);
             this.btnGetHostTime.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnGetHostTime.Name = "btnGetHostTime";
             this.btnGetHostTime.Size = new System.Drawing.Size(106, 25);
@@ -294,16 +298,33 @@
             this.lblServiceName.TabIndex = 27;
             this.lblServiceName.Text = "Service Name : ";
             // 
-            // frmSingleTest
+            // btn_NeverReturn
+            // 
+            this.btn_NeverReturn.Location = new System.Drawing.Point(6, 405);
+            this.btn_NeverReturn.Name = "btn_NeverReturn";
+            this.btn_NeverReturn.Size = new System.Drawing.Size(106, 25);
+            this.btn_NeverReturn.TabIndex = 20;
+            this.btn_NeverReturn.Text = "Never Return";
+            this.btn_NeverReturn.UseVisualStyleBackColor = true;
+            this.btn_NeverReturn.Click += new System.EventHandler(this.btn_NeverReturn_Click);
+            // 
+            // tbNeverReturn
+            // 
+            this.tbNeverReturn.Location = new System.Drawing.Point(121, 407);
+            this.tbNeverReturn.Name = "tbNeverReturn";
+            this.tbNeverReturn.Size = new System.Drawing.Size(176, 20);
+            this.tbNeverReturn.TabIndex = 21;
+            // 
+            // frmWCFSingleTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(343, 517);
+            this.ClientSize = new System.Drawing.Size(343, 528);
             this.Controls.Add(this.lblServiceName);
             this.Controls.Add(this.gbMethodInvocation);
             this.Controls.Add(this.cBoxClientList);
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.Name = "frmSingleTest";
+            this.Name = "frmWCFSingleTest";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Single Test";
             this.gbMethodInvocation.ResumeLayout(false);
@@ -338,5 +359,7 @@
         private System.Windows.Forms.Button btnGuessGender;
         private System.Windows.Forms.TextBox tbGetPerson;
         private System.Windows.Forms.Button btnGetPerson;
+        private System.Windows.Forms.TextBox tbNeverReturn;
+        private System.Windows.Forms.Button btn_NeverReturn;
     }
 }
